@@ -6,6 +6,12 @@
 
 ---
 
+## 更新日志:
+
+2018-8-16 14:59:34 添加多进程爬虫 导出pdf成功后删除目录下所有 html 文件
+
+---
+
 ## 准备工作
 
 需要安装库：requests、bs4、pdfkit(可要可不要 程序代码会使用pdfkit，pdfkit会调用wkhtmltopdf，而wkhtmltopdf会调用windows中的wkhtmltopdf.exe来转化html为pdf。所以可以直接用`os.system(cmd)`操作)
@@ -40,5 +46,5 @@ config=pdfkit.configuration(wkhtmltopdf=r"D:\software\wkhtmltopdf\bin\wkhtmltopd
 
 ## TODO
 
-* [ ] 速度太慢了，要搞快点。
+* [x] 速度太慢了，要搞快点。
 

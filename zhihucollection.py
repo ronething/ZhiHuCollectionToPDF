@@ -22,8 +22,8 @@ def getMaxUrl(target_url):
     for page in page_soup:
         test = page.get_text()
         if test.isdigit():
-            page_digit.add(test)
-    max_page =int(max(page_digit))
+            page_digit.add(int(test))
+    max_page = max(page_digit)
     
     return max_page
 
