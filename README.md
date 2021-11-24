@@ -32,7 +32,7 @@ config=pdfkit.configuration(wkhtmltopdf=r"D:\software\wkhtmltopdf\bin\wkhtmltopd
 
 - 输入收藏夹id
 
-![](https://ws1.sinaimg.cn/large/ecb0a9c3gy1fuaiwj8gwdj20bo00sweb.jpg)
+![](./img/ecb0a9c3gy1fuaiwj8gwdj20bo00sweb.jpg)
 
 - 获取每个收藏问题或者专栏链接
 
@@ -40,7 +40,7 @@ config=pdfkit.configuration(wkhtmltopdf=r"D:\software\wkhtmltopdf\bin\wkhtmltopd
 
 - 生成`pdf`
 
-![](https://ws1.sinaimg.cn/large/ecb0a9c3gy1fuaitzzamzj20us08ajrj.jpg)
+![](./img/ecb0a9c3gy1fuaitzzamzj20us08ajrj.jpg)
 
 ---
 
