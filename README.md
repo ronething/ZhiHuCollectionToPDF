@@ -42,6 +42,15 @@ config=pdfkit.configuration(wkhtmltopdf=r"D:\software\wkhtmltopdf\bin\wkhtmltopd
 
 ![](./img/ecb0a9c3gy1fuaitzzamzj20us08ajrj.jpg)
 
+## 使用
+
+> 好几年前写的代码 挺有趣的
+
+```console
+python3 zhihucollection.py
+python3 zhihucollection_pool.py
+```
+
 ---
 
 ## TODO
